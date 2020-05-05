@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment Solution for Module 2</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            border-left: 2px solid black;
+            border-bottom: 2px solid black;
+            width: 100px;
+            float: right;
+            margin-top: 0px;
+            padding: 0px 10px;
+        }
+
+        p {
+            margin-top: 40px;
+        }
+
+        #chicken h2 {
+            background-color: rgb(248, 164, 164);
+        }
+
+        #beef h2 {
+            background-color: rgb(255, 41, 41);
+            color: seashell;
+        }
+
+        #sushi h2 {
+            background-color: rgb(253, 253, 165);
+        }
+        @media (min-width: 992px) {
+            .box {
+                border: 2px solid black;
+                width: 30%;
+                float: left;
+                margin: 10px;
+                height: 180px;
+                background-color: gray;
+                margin-left: 18px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width:991px) {
+            .box {
+                border: 2px solid black;
+                margin: 10px;
+                background-color: gray;
+                margin-left: 25px;
+            }
+
+            #chicken{
+                width: 45%;
+                float: left;
+                height: 150px;
+                clear: both;
+            }
+            #beef{
+                display: inline-block;
+                width: 45%;
+                height: 150px;
+                clear: both;
+            }
+
+            #sushi {
+                width: 94.5%;
+                height: 150px;
+            }
+        }
+        @media (max-width:767px) {
+            .box{
+                border: 2px solid black;
+                width: 80%;
+                margin: 10px;
+                background-color: gray;
+                margin-left: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Our Menu</h1>
+    <div id="wrapper">
+        <div id="chicken" class="box">
+            <h2>Chicken</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, illo nihil. Saepe expedita ea
+                dolores in eius incidunt minus quam autem odit, at est voluptatem animi. Eaque eos praesentium
+                </rem>
+            </p>
+        </div>
+        <div id="beef" class="box">
+            <h2>Beef</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, illo nihil. Saepe expedita ea
+                dolores in eius incidunt minus quam autem odit, at est voluptatem animi. Eaque eos praesentium </rem>
+            </p>
+        </div>
+        <div id="sushi" class="box">
+            <h2>Sushi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, illo nihil. Saepe expedita ea
+                dolores in eius incidunt minus quam autem odit, at est voluptatem animi. Eaque eos praesentium </rem>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
